@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <item
-        android:id="@+id/nav_home"
-        android:title="Home" />
+        android:id="@+id/nav_profile"
+        android:title="My Profile" />
 
     <item
         android:id="@+id/nav_challenges"
         android:title="Challenges" />
 
     <item
-        android:id="@+id/nav_profile"
-        android:title="Profile" />
+        android:id="@+id/nav_categories"
+        android:title="Categories" />
 </menu>

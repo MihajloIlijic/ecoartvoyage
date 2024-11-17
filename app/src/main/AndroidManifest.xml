@@ -27,6 +27,15 @@
         <activity
             android:name=".SuccessActivity"
             android:exported="false" />
+        <activity
+            android:name=".CompletedChallengesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AvailableChallengesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".KnowledgeAreaActivity"
+            android:exported="false" />
     </application>
 
 </manifest>
