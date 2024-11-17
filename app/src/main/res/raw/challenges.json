@@ -1,0 +1,16 @@
+{
+  "challenges": [
+    {
+      "id": 1,
+      "question": "R_c_cl_ng",
+      "answer": "recycling",
+      "image": "recycling_image"
+    },
+    {
+      "id": 2,
+      "question": "Tr__sh",
+      "answer": "trash",
+      "image": "trash_image"
+    }
+  ]
+}

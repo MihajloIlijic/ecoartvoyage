@@ -5,7 +5,6 @@
     android:layout_height="match_parent"
     android:background="#F5F5F5">
 
-    <!-- Toolbar mit Zurück-Pfeil und Titel -->
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbar"
         android:layout_width="match_parent"
@@ -60,16 +59,17 @@
                 />
 
             <!-- Text in grünem Hintergrund -->
+
+
             <TextView
+                android:id="@+id/questionText"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="R_c_cl_ng"
                 android:padding="8dp"
                 android:layout_gravity="center"
                 android:layout_marginBottom="16dp"
                 android:background="#90EE90"
                 android:textSize="18sp"/>
-
             <!-- Eingabefeld -->
             <EditText
                 android:id="@+id/inputField"
