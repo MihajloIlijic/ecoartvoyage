@@ -77,7 +77,7 @@
                 <ImageView
                     android:layout_width="match_parent"
                     android:layout_height="150dp"
-                    android:src="@drawable/content_image_recycling"
+                    android:src="@drawable/tiger_painting"
                     android:scaleType="centerCrop"/>
             </LinearLayout>
         </androidx.cardview.widget.CardView>
@@ -106,7 +106,7 @@
                 <ImageView
                     android:layout_width="match_parent"
                     android:layout_height="150dp"
-                    android:src="@drawable/content_image_recycling"
+                    android:src="@drawable/forest_painting"
                     android:scaleType="centerCrop"/>
             </LinearLayout>
         </androidx.cardview.widget.CardView>
