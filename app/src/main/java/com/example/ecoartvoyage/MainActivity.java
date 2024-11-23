@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
             return insets;
         });
 
-        // Start Challenge Button
+
         Button startChallengeButton = findViewById(R.id.buttonStartChallenge);
         startChallengeButton.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -41,8 +41,10 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        // Bottom Navigation
+
         bottomNavigation = findViewById(R.id.bottomNavigation);
+
+
         bottomNavigation.setOnItemSelectedListener(new NavigationBarView.OnItemSelectedListener() {
             @Override
             public boolean onNavigationItemSelected(@NonNull MenuItem item) {
@@ -64,5 +66,14 @@ public class MainActivity extends AppCompatActivity {
                 return false;
             }
         });
+    }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+        if (bottomNavigation != null) {
+            bottomNavigation.clearAnimation();
+            bottomNavigation.setSelected(false);
+        }
     }
 }

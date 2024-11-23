@@ -57,7 +57,7 @@
                 android:layout_height="200dp"
                 android:layout_marginBottom="16dp"
                 android:scaleType="centerCrop"
-                android:src="@drawable/acacia_tree_painting"
+                android:src="@drawable/recycling_content"
                 />
 
             <!-- Text in grünem Hintergrund -->
